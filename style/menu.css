@@ -292,19 +292,8 @@ h4 {
 
 #gallery {
     width: 100%;
-    height: 1000px;
 }
 
-.section-header {
-    color: #555555;
-    font-size: 50px;
-    font-variant: small-caps;
-    font-style: oblique;
-    text-shadow: 2px 2px #DDDDDD;
-    margin: 20px 0px 20px 0px;
-    padding-top: 52px;
-    padding-bottom: 5px;
-}
 
 .divider {
     width: 100%;

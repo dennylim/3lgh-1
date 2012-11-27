@@ -13,7 +13,33 @@
 	}
 	
 	#wrapper{
-		width:960px
+		width:100%;
+		padding:40px 0px;
+		margin: 20px 0px;		
+	}
+	
+	#header-container{
+		margin:auto;
+		width:100%;
+		height:80px;
+		background-color:#183939;
+		padding:10px;
+	}
+	
+	#header-wrapper{
+		width:960px;
+		height:80px;
+		margin:auto;
+	}
+	
+	#header-wrapper h1{
+		padding:20px 0px 0px 0px;
+		margin:0px;
+		color: #9BD160;
+		line-height:120%;
+		font-size: 50px;
+		font-variant: small-caps;
+		font-style: oblique;
 	}
 		
 	.dropShadow{
@@ -40,16 +66,31 @@
 		/*End drop shadow*/
 	}
 	
+	/* START HEADER STYLE */
 	#mainHeader{
-		background-image:url(../images/header.png);
-		background-repeat:no-repeat;
-		background-size:100%;
+		background-image:url(../resource/image/home/bkgrd_top.jpg);
+		background-color:#183939;
 		margin:auto;
-		min-height: 100%;
-		min-width: 1024px;
-		width: 1024px;
-		height: 768px;
+		margin-top:32px;
+		width: 100%;
+		height: 736px;
 	}
+	
+	#MainBox{
+		background-color:#EEE;
+		width:1024px;
+		height:728px;
+		margin:auto;
+		padding:4px;
+	}
+	
+	#MainBox-frameWrapper{
+	}
+	
+	.mf-top{ height:500px;background-color:#0F0; margin:0px 0px 4px 0px;}
+	.mf-bottom{ height:224px;background-color:#F0F;}
+	
+	/* END HEADER STYLE */
 	
 	#sections{
 		margin: auto;
@@ -58,6 +99,7 @@
 	}
 	
 	.slidingDiv{
+		z-index:100000;
 		width:100%;
 		height:auto;
 		display: block;
@@ -194,3 +236,59 @@
 		text-align:left;
 	}
 /*END Contact US*/
+
+
+/*ABOUT US*/
+	#aboutUS_mainFrame{
+		margin-top:15px;
+	}
+	
+	#aboutUS_mainFrame_left{
+		position:relative;
+		margin:auto;
+		height:320px;
+		width:960px;
+	}
+	
+	#aboutUS_box{
+		position:absolute;
+		width:310px;
+		height:400px;
+		background-color:#003E24;
+		
+		/*Drop shadow*/
+		-moz-box-shadow: 0px 0px 5px #333;
+		-webkit-box-shadow: 0px 0px 5px #333;
+		box-shadow: 0px 0px 5px #333;
+		/*End drop shadow*/
+	}
+	
+	.contactUS_box1{ left:0px;}
+	.contactUS_box2{ left:325px;}
+	.contactUS_box3{ left:650px}
+	
+	#aboutUS_header{
+		width:100%;
+		height:80px;
+		background-repeat:no-repeat;
+	}
+	
+	#aboutUS_contentWrapper{
+		width:auto;
+		height:auto;
+		margin:20px 30px;
+		
+		font-family:'century gothic', 'trebuchet ms', Helvetica, sans-serif, Arial;
+		font-size:14px;
+		color:#999;
+	}
+	
+	.colour_green{
+		background-color:#5A854D;
+		/*Drop shadow*/
+		-moz-box-shadow: 0px 0px 10px #666;
+		-webkit-box-shadow: 0px 0px 10px #666;
+		box-shadow: 0px 0px 10px #666;
+		/*End drop shadow*/
+	}
+/*END ABOUT US*/
