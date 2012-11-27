@@ -101,7 +101,13 @@
         <div id="mainHeader" class="dropShadow_lighter_more">
         	<div id="MainBox">
             	<div id="MainBox-frameWrapper">
-                	<div id="MainBox-frameWrapper" class="mf-top"></div>
+                	<div id="MainBox-frameWrapper" class="mf-top">
+                    	<div id="Box-top">
+                        	<div id="BOX-1"></div>
+                            <div id="BOX-2" class="BOX-2-top"></div>
+                            <div id="BOX-2" class="BOX-2-bottom"></div>
+                        </div>
+                    </div>
                     <div id="MainBox-frameWrapper" class="mf-bottom"></div>
                 </div>
             </div>

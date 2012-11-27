@@ -20,7 +20,7 @@
 	
 	#header-container{
 		margin:auto;
-		width:1024px;
+		width:1004px;
 		height:80px;
 		background-color:#183939;
 		padding:10px;
@@ -78,7 +78,7 @@
 	
 	#MainBox{
 		background-color:#EEE;
-		width:1024px;
+		width:1014px;
 		height:728px;
 		margin:auto;
 		padding:4px;
@@ -87,8 +87,32 @@
 	#MainBox-frameWrapper{
 	}
 	
-	.mf-top{ height:500px;background-color:#0F0; margin:0px 0px 4px 0px;}
+	.mf-top{ height:500px;margin:0px 0px 4px 0px;}
 	.mf-bottom{ height:224px;background-color:#F0F;}
+	
+	#Box-top{
+		width:1014px;
+		height:500px;
+		position:relative;
+	}
+	
+	#BOX-1{
+		position:absolute;
+		width:600px;
+		height:500px;
+		background-color:#183939;
+		left:0px;
+	}
+	
+	#BOX-2{
+		position:absolute;
+		width:412px;
+		height:248px;
+		left:604px;
+	}
+	
+	.BOX-2-top{ background-color:#395F43; top:0px;}
+	.BOX-2-bottom{ background-color:#5A854D; top:252px;}
 	
 	/* END HEADER STYLE */
 	
